@@ -22,7 +22,7 @@ export class Check {
         }else{
             if(this.observed_output != this.expected_output){
                 this.validated_check = false;
-                this.error_description = "A saída observada não é diferente da saída esperada.";
+                this.error_description = "A saída observada é diferente da saída esperada.";
             }else{
                 this.validated_check = true;
                 this.error_description = "Nenhum erro.";
